@@ -1,0 +1,54 @@
+
+header{
+    background-color: #E5E5E5
+}
+
+.logo{
+    text-align:center;
+}
+
+.align-left {
+    margin-bottom:25px;
+    position: relative;
+    left: 21px;
+    line-height: 34%
+}
+
+.align-left-p{
+    position: relative;
+    left: 80px}
+
+.bold{font-weight: bold}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #C4C4C4;
+    letter-spacing: 0.4em;
+}
+
+.subtitles {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    text-transform:uppercase;
+    background-color: #C4C4C4;
+    letter-spacing: 0.4em;
+}
+
+footer {
+    text-align: center;
+    background-color: #005677;
+    color: white;
+    font-size: 20px;
+
+}
+

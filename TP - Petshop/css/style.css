@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.nav{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    background-color: #F0A83E;
+    color: white; 
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+h2{
+    text-align:center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner{
+    text-align: center;
+    background-image: url('../img/bowl.png');
+    size:auto ;
+    height: 700px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button{
+    background-color: #F0A83E;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.prodD{
+    text-align: center;
+}
+
+.prodD h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.prodD p{
+    font-size: 15px;
+}
+
+.articles{
+    font-size: 15px;
+    background-color: #FBFAF6;
+    font-weight: 500;
+    color: #3C2313;
+
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+.contact{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313; 
+}
+
+.suscribe{
+    background-color:#F0A83E;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+footer{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #3C2313;
+}
+
+p span{
+    font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;
+}
+
+.foot{
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #222222;
+    height:20px;
+    bottom: 0px;
+    line-height: 11.72px;
+}
