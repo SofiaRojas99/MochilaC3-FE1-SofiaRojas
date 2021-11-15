@@ -1,68 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.nav{
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.comederos {
     background-color: black;
     color: white;
+
+    width: 100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.comederos p{
+    background-color: black;
+    color: white;
+    padding: 4px 4px 4px 90px;
+}
+
+
+.comederos nav ul{ 
+    list-style-type: none;
+
+    margin-right:60px;
+
+    width:250px;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.menu{
+    background-color: #F0A83E;
+    color: white;
+    width: 100%;
+
+    padding:19px 40px 20px 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+    height:30px;
+}
+
+.menu nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    width:600px;
+
+    list-style-type: none;
+
+    font-size: 18px;
 }
 
 body{
     background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-}
-.menu{
-    background-color: #F0A83E;
-    color: white; 
 }
 
-nav ul{
-    list-style-type: none;
+.banner{
+    background-image: url('../img/bowl.png');
+    background-size: cover; 
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
 }
 
-h2{
-    text-align:center;
+.banner h2{
+    background-color:white;
+    padding:9px 10px 10px 10px;
+    margin-right:21px;
+    margin-bottom:12px;
+
     font-weight: 400;
     font-size: 30px;
 }
 
-.banner{
-    text-align: center;
-    background-image: url('../img/bowl.png');
-    size:auto ;
-    height: 700px;
+.banner p{
+    margin-right:105px;
+    margin-bottom:12px;
+
+
     font-weight: 400;
     font-size: 18px;
 }
 
-button{
+
+.banner button{
     background-color: #F0A83E;
     width: 141px;
     height: 49px;
-    left: 767px;
-    top: 334px;
+    margin-right:127px;
+
     font-weight: 400;
     font-size: 16px;
     color: white;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
 }
 
 .prodD{
+
     text-align: center;
+    height: 300px;
+
+    margin-top: 25px;
+
 }
 
 .prodD h2{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 43px;
+
+    margin-bottom: 20px;
 }
 
+
 .prodD p{
-    font-size: 15px;
+    font-size: 18px;
+    color:#666666;
+    word-spacing: 15px;
 }
 
 .articles{
     font-size: 15px;
-    background-color: #FBFAF6;
-    font-weight: 500;
+    
+    font-weight: 700;
     color: #3C2313;
 
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 100px;
+
+}
+article{
+    background-color: #FBFAF6;
+    text-align: center;
+}
+
+article img{
+    width:auto;
+    height:269px;
 }
 
 .precio{
@@ -71,10 +166,51 @@ button{
 
 .contact{
     font-size: 25px;
-    font-weight: 700;
-    color: #3C2313; 
+    font-weight: 800;
+    color: #3C2313;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.contact p{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+
+    width: 340px;
+    border-radius: 20px ;
+
+    background-color:#3C2313 ;
+
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.contact div {
+    display: flex;
+}
+
+.contact div button{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #8A8787;
+
+    text-align: center;
+    width:110px;
+    height: 34px;
+    
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+
+    border-radius: 20px ;
+    border: none;
+    cursor:pointer;
+}
 .suscribe{
     background-color:#F0A83E;
     color: white;
@@ -90,12 +226,25 @@ footer{
     background-color: #3C2313;
 }
 
+footer h3{
+    padding: 20px 20px 17px 29px;
+}
+
+.socialmedia{
+    display: flex;
+    align-items: center;
+}
 p span{
     font-size: 10px;
     font-weight: 700;
     color: #8A8787;
 }
 
+.logo img{
+        height:30px;
+        margin-right: 5px;
+
+}
 .foot{
     font-size: 10px;
     font-weight: 700;
