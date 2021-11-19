@@ -14,7 +14,6 @@ header section p{
     padding:10px;
 }
 
-
 h1{
     background-color:#00669F;
     box-shadow: 0px 7px 7px #9b9b9b;
@@ -81,6 +80,7 @@ article div i{
     font-size:30px;
     color:#CC2424;
 }
+
 .card{
     width:300px;
     height:336px;
@@ -118,7 +118,7 @@ h2{
 
 }
 
-.cuerpo{
+article div p{
     font-size:16px;
     width:267px;
     height:113px;
@@ -134,7 +134,7 @@ button{
 
 }
 
-.añadir{
+.add{
 
     display:block;
     width:50px;
@@ -175,12 +175,15 @@ footer img{
     .none{
         display:none;
     }
+    
     .perfil2bis{
         display:none;
     }
+
     footer{
         font-size: 10px; 
     }
+
     footer img{
         width: 50px;
         height:auto;
@@ -194,8 +197,18 @@ footer img{
     
     article{ 
         margin-bottom: 40px;
-   
-}
+    }
+
+    footer{
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+
+    footer img{
+        width: 75px;
+        height:auto;
+    }  
+
 
 }
 
